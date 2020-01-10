@@ -1,0 +1,27 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" type="text/css" href="Samples.css">
+  <title>Why Arrays 2</title>
+ 
+</head>
+
+<body>
+  <p>Thank you for this information. You have entered:</p>
+    <script type="text/javascript">
+    /* <![CDATA[ */
+    var name = prompt("Enter your name", "");
+    var address = prompt("Enter your address", "");
+    var occupation = prompt("Enter your occupation", "");
+
+    var userInfo = [name, address, occupation]
+    var text = " ";
+    
+    for (var i = 0; i< userInfo.length; i++) {
+      text += userInfo[i] + "<br>";
+    }
+    document.writeln(text);
+  </script>
+</body>
+</html>
